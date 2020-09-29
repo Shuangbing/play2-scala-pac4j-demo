@@ -1,0 +1,9 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+GET         /callback                                @org.pac4j.play.CallbackController.callback()
+POST        /callback                                @org.pac4j.play.CallbackController.callback()
+GET         /casProxyCallback                        @org.pac4j.play.CallbackController.callback()
+POST        /casProxyCallback                        @org.pac4j.play.CallbackController.callback()
+GET         /logout                                  @org.pac4j.play.LogoutController.logout()
